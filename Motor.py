@@ -53,10 +53,3 @@ def mostrar_resultado(pontos, total):
         aproveitamento = (pontos / total) * 100
         print(f"Desempenho: {aproveitamento:.1f}%")
 
-a = {"enunciado": "Qual a fórmula da água?",
-     "opcoes": ["H2O", "CO2", "O2", "NaCl"],
-     "correta": 0,
-     "categoria": "Ciência",
-     "dificuldade": "fácil"}
-
-jogar([a])A
